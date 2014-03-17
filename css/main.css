@@ -1,0 +1,26 @@
+* { -moz-box-sizing: border-box; box-sizing: border-box; }
+  body {
+    font: 14px/1.5 sans-serif;
+    background: white; color: black;
+    margin: 0; padding: 0;
+  }
+  h1, h2, h3 { margin: 0; font-size: 1.5em; }
+  h1 { font-weight: 100; padding: 0.444em 0.667em; }
+
+  .grid { overflow: hidden; margin:auto;}
+  .box {
+	border:1px solid #000;  
+    float: left;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    background: #cccccc;
+	margin:0 0 50px 110px;
+	padding:5px;
+	height:280px;
+	width:163px
+  }
+  img {
+	height:150px;
+	width:150px;
+  }
